@@ -1,0 +1,38 @@
+.demo-tab-group {
+  border: 1px solid #e8e8e8;
+}
+
+.demo-tab-content {
+  padding: 16px;
+}
+
+.mat-card {
+	margin-bottom: 50px;
+}
+
+.demo-tab {
+  height: 80px;
+}
+
+.content-inner-tab {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.content-inner-tab h1 {
+	margin-bottom: 50px;
+}
+
+.content-post-inner-tab {
+	width: 50%;
+	text-align: center;
+	left: 0;
+   right: 0;
+   margin: auto;
+	text-align: justify;
+}
+
+.content-post-inner-tab p {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}

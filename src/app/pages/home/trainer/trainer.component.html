@@ -1,0 +1,31 @@
+<div class="homeMktg homeSection">
+   
+   <div class="container no-padding">
+      <div class="homeMktg__txt text-center">
+         <h2 class="homeMktg__title homeSection__title">Trainers</h2>
+         <h3 class="homeMktg__title homeSection__sub">Embrace Digital</h3>
+         <div class="homeMktg__excerpt homeSection__excerpt col-md-6 center-block no-padding">
+            <p>Working side by side with your team to manage and optimize your digital marketing investments.</p>
+         </div>
+         <a class="button button--black homeSection__button" (click)="goToTrainer()" routerLink="/trainer"><span>Learn more</span></a>
+         <div class="homeMktg__services">
+            <div class="owl-carousel owl-theme">
+               <div *ngFor = "let traineritems of traineritems" routerLinkActive="active" class="service linkTo marketing plan">
+                  <img class="lazy service__feat" src="{{traineritems.img}}" width="270.5"/>
+                  <h4 class="service__title text-uppercase">{{traineritems.name}}</h4>
+                  <div class="service__excerpt hidden-xs">
+                     <p>{{traineritems.position}}
+                     </p>
+                  </div>
+                  <a class="service__link linkFrom roundButton roundButton--green hidden-xs" href="#"></a><a class="service__link button button--black hidden-sm hidden-md hidden-lg" href="#">View service</a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+
+<video id="video" type="video/mp4">
+</video>
+<video id="video_mobile" type="video/mp4">
+</video>

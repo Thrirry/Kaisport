@@ -1,0 +1,83 @@
+
+<body class="home page-template page-template-page_HOME page-template-page_HOME-php page page-id-2 unknown">
+<app-nav></app-nav>
+<div class="magento">
+
+
+   <div class="account-create">
+      <div class="page-title">
+         <h1>Create an Account</h1>
+      </div>
+      <form action="/" method="post" id="form-validate" enctype="multipart/form-data">
+         <div class="fieldset">
+            <input type="hidden" name="success_url" value="" autocomplete="off">
+            <input type="hidden" name="error_url" value="" autocomplete="off">
+            <input type="hidden" name="form_key" value="CGyLGDEWF8Jj22uv" autocomplete="off">
+            <h2 class="legend">Personal Information</h2>
+            <ul class="form-list">
+               <li class="fields">
+                  <div class="customer-name">
+                     <div class="field name-firstname">
+                        <label for="firstname" class="required"><em>*</em>First Name</label>
+                        <div class="input-box">
+                           <input type="text" id="firstname" name="firstname" value="" title="First Name" maxlength="255" class="input-text required-entry" autocomplete="off">
+                        </div>
+                     </div>
+                     <div class="field name-lastname">
+                        <label for="lastname" class="required"><em>*</em>Last Name</label>
+                        <div class="input-box">
+                           <input type="text" id="lastname" name="lastname" value="" title="Last Name" maxlength="255" class="input-text required-entry" autocomplete="off">
+                        </div>
+                     </div>
+                  </div>
+               </li>
+               <li>
+                  <label for="email_address" class="required"><em>*</em>Email Address</label>
+                  <div class="input-box">
+                     <input type="email" name="email" id="email_address" value="" title="Email Address" class="input-text validate-email required-entry" autocorrect="off" autocapitalize="off" autocomplete="off">
+                  </div>
+               </li>
+            </ul>
+         </div>
+         <div class="divider"></div>
+         <div class="fieldset">
+            <h2 class="legend">Login Information</h2>
+            <ul class="form-list">
+               <li class="fields">
+                  <div class="field">
+                     <label for="password" class="required"><em>*</em>Password</label>
+                     <div class="input-box">
+                        <input type="password" name="password" id="password" title="Password" class="input-text required-entry validate-password" autocorrect="off" autocapitalize="off" autocomplete="off">
+                     </div>
+                  </div>
+                  <div class="field">
+                     <label for="confirmation" class="required"><em>*</em>Confirm Password</label>
+                     <div class="input-box">
+                        <input type="password" name="confirmation" title="Confirm Password" id="confirmation" class="input-text required-entry validate-cpassword" autocorrect="off" autocapitalize="off" autocomplete="off">
+                     </div>
+                  </div>
+               </li>
+               <li id="captcha-input-box-user_create">
+                  <label for="captcha_user_create" class="required"><em>*</em>Please type the letters below</label>
+                  <div class="input-box captcha">
+                     <input name="captcha[user_create]" type="text" class="input-text required-entry" id="captcha_user_create" autocomplete="off">
+                  </div>
+               </li>
+               
+               <li id="remember-me-box" class="control">
+                  
+                  <label for="remember_meGQ1qcIl70U">Remember Me</label>
+               </li>
+            </ul>
+         </div>
+         <div class="buttons-set form-buttons">
+            <button type="submit" class="bnt button button--black homeSection__button" (click)="goToHome()" name="BACK" style="background-color: #099d6e"><span><span>BACK</span></span></button>
+            <button type="submit" class="button button--black homeSection__button" name="SUBMIT"><span><span>SUBMIT</span></span></button>
+         </div>
+         
+      </form>
+      
+   </div>
+</div>
+<app-footer></app-footer>
+</body>

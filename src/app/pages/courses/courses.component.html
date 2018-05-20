@@ -1,0 +1,29 @@
+<body class="home page-template page-template-page_HOME page-template-page_HOME-php page page-id-2 unknown">
+<app-nav></app-nav>
+<div id="barba-wrapper">
+	<div class="barba-container marketing_plan page" data-namespace="page_servizio" data-page-color="">
+		<div class="pageVisual ">
+			<div class="container no-padding">
+				<div class="col-sm-7 col-md-6 no-padding-left pageVisual__subWrapper">
+					<h1 class="pageVisual__sub homeSection__sub" id="typed">
+					<span class="sologan" typingAnimation [typeSpeed]="50" [condition]="start" [startDelay]="1000" [hideCursorOnComplete]="true">
+						{{stringSologan1}}
+					</span><br />
+					<span class="sologan" typingAnimation [typeSpeed]="50" [condition]="start" [startDelay]="1000" [hideCursorOnComplete]="true">
+						{{stringSologan2}}
+					</span>
+					</h1>
+				</div>
+				
+				<div class="col-sm-5 col-md-6 pageVisual__imageWrapper no-padding-right">
+					<img class="pageVisual__image lazy center-block" src="assets/img/courses.svg" style="width: 150%">
+				</div>
+			</div>
+		</div>
+		
+		<router-outlet></router-outlet>
+		<!-- <app-coursedetail></app-coursedetail> -->
+	</div>
+</div>
+<app-footer></app-footer>
+</body>

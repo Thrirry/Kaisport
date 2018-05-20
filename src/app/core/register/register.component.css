@@ -1,0 +1,225 @@
+.magento {
+	background: #fff;
+	overflow: hidden;
+	margin-top: 120px;
+	margin-bottom: 2px;
+}
+
+.account-create {
+	color: #666;
+	font-size: 13px;
+	margin: 0 auto;
+	padding-bottom: 60px;
+	overflow: hidden;
+	width: 1200px;
+}
+
+.page-title h1 {
+	border-bottom: 1px solid #f1f1f1;
+	color: #8d8d8d;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 40px 10px;
+	padding: 0 0 10px 0;
+	text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5, h6, strong, b, th {
+	font-weight: normal;
+}
+
+.account-create form {
+	margin: 0 10px;
+}
+
+form, input, textarea, select, button {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	letter-spacing: 0.04em;
+	-webkit-font-smoothing: antialiased;
+}
+
+.account-create .fieldset {
+	width: 100%;
+}
+
+form .fieldset {
+	font-size: 13px;
+}
+
+form, input, textarea, select, button {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	letter-spacing: 0.04em;
+	-webkit-font-smoothing: antialiased;
+}
+
+input[type="hidden"i], input[type="image"i], input[type="file"i] {
+	-webkit-appearance: initial;
+	background-color: initial;
+	cursor: default;
+	padding: initial;
+	border: initial;
+}
+
+input[type="hidden"i] {
+	display: none;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+form .form-list .fields {
+	overflow: hidden;
+}
+
+form .form-list li {
+	margin-bottom: 10px;
+}
+
+form .form-list li label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+form .form-list li label em {
+	display: block;
+	float: left;
+	padding-right: 6px;
+}
+
+form .form-list .control {
+	overflow: hidden;
+}
+
+form .form-list li {
+	margin-bottom: 10px;
+}
+
+form .form-list .control .input-box {
+	float: left;
+	margin-right: 6px;
+}
+
+form .form-list .control label {
+	display: inline;
+}
+
+form .form-list li label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.account-create .divider {
+	height: 20px;
+}
+
+.account-create .fieldset {
+	width: 100%;
+}
+
+form .fieldset {
+	font-size: 13px;
+}
+
+form .fieldset h2 {
+	font-weight: bold;
+	font-size: 12px;
+	margin-bottom: 30px;
+}
+
+.account-create .buttons-set {
+	margin-top: 20px;
+}
+
+.buttons-set {
+	overflow: hidden;
+}
+
+.account-create a {
+	color: #666;
+	text-decoration: none;
+}
+
+.back-link a {
+	background: #e5e5e5;
+	border: 0;
+	color: #666;
+	display: block;
+	float: left;
+	font-weight: bold;
+	line-height: 1em;
+	margin-right: 1px;
+	padding: 14px 24px;
+	text-decoration: none;
+}
+
+.back-link a small {
+	display: none;
+}
+
+.account-create p.required {
+	clear: both;
+	margin-top: 20px;
+}
+
+p.required {
+	color: #999;
+	font-size: 12px;
+}
+
+.button {
+	border-radius: 0px;
+}
+
+.breadcrumbs * {
+	font-size: .8rem;
+}
+
+form .form-list input[type=text], form .form-list input[type=tel], form .form-list input[type=email], form .form-list input[type=password] {
+	background: #e5e5e5;
+	border: 0;
+	color: #111;
+	margin: 0;
+	padding: 5px;
+}
+
+form, input, textarea, select, button {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	letter-spacing: 0.04em;
+	-webkit-font-smoothing: antialiased;
+}
+
+.account-create .form-list input[type=text], .account-create .form-list input[type=tel], .account-create .form-list input[type=email], .account-create .form-list input[type=password] {
+	width: 330px;
+}
+
+/*mobile*/
+@media (max-width:980px) and (min-width:0), only screen and (max-device-width:1024px) and (orientation:landscape) {
+	.account-login {
+		width: 100%;
+	}
+
+	.breadcrumbs {
+		text-align: center;
+	}
+
+	.button {
+		min-width: 70px;
+	}
+}
+
+@media (max-width:980px) and (min-width:0), only screen and (max-device-width:1024px) and (orientation:landscape) {
+	.account-create .form-list input[type=text], .account-create .form-list input[type=tel], .account-create .form-list input[type=email], .account-create .form-list input[type=password] {
+		width: 100%;
+		box-sizing: border-box;
+	}
+}
+
+@media (max-width:980px) and (min-width:0), only screen and (max-device-width:1024px) and (orientation:landscape) {
+	.account-create {
+		width: 100%;
+	}
+}

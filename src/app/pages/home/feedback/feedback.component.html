@@ -1,0 +1,25 @@
+<div class="homeMktg homeSection">
+   <div class="container no-padding">
+      <div class="homeMktg__txt text-center">
+         <h2 class="homeMktg__title homeSection__title">Feedback</h2>
+         <h3 class="homeMktg__title homeSection__sub">Embrace Digital</h3>
+         <div class="homeMktg__excerpt homeSection__excerpt col-md-6 center-block no-padding">
+         </div>
+         <a class="button button--black homeSection__button" href="#"><span>All Feedback</span></a>
+         <div class="homeMktg__services">
+            <div class="owl-carousel owl-theme">
+
+               <div class="service linkTo marketing plan" *ngFor = "let feedbackitems of feedbackitems" routerLinkActive="active">
+                  <img class="lazy service__feat" src="{{feedbackitems.img}}" width="270.5"/>
+                  <h4 class="service__title text-uppercase">{{feedbackitems.name}}</h4>
+                  <div class="service__excerpt hidden-xs">
+                     <p>{{feedbackitems.position}}
+                     </p>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </div>
+   </div>
+</div>

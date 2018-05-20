@@ -1,0 +1,48 @@
+.text-main-slide {
+
+	position:absolute;
+	/*float: left;*/
+	top:150px;
+	/*left:200px;*/
+	height:75px;
+	background-color:rgba(255,188,5,0.8);
+	font-family: 'Titillium Web', sans-serif;
+	font-size:70px; line-height:1.0;
+	padding: 5px;
+	box-sizing:border-box;
+	text-align: right;
+	color: #ffffff;
+	font-weight: 1;
+	pointer-events: none;
+   cursor: default;
+}
+
+
+.text-child-slide {
+	 position:absolute;
+	 /*float: right;*/
+	 top:230px;
+	 /*right:200px;*/
+	 height:35px;
+	 font-family: 'Titillium Web', sans-serif;
+	 font-size:25px;
+	 line-height:1.0;
+	 box-sizing:border-box;
+	 text-align: right;
+	 color: #ffffff;
+	 background-color:rgba(255,188,5,0.8);
+	 /*line-height: 1;*/
+	 color: #ffffff;
+	 padding: 7px;
+	 pointer-events: none;
+    cursor: default;
+}
+
+.text-float-left {
+	float: left;
+	left:200px;
+}
+.text-float-right {
+	float: right;
+	right:200px;
+}

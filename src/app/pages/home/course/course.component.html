@@ -1,0 +1,63 @@
+<div class="homeExp homeSection" style="background-color: #F5F5F5">
+	<div class="container no-padding">
+		<!-- sologan -->
+		<!-- sologan -->
+		<!-- sologan -->
+		<div class="homeExp__txt text-center">
+			<h2 class="homeExp__title homeSection__title">"SPIRIT"</h2>
+			<h3 class="homeExp__title homeSection__sub">Try out the hanah sport center</h3>
+			<div class="homeExp__excerpt homeSection__excerpt col-md-6 center-block no-padding">
+				<p>with out 3-days all access pass with no commitment.</p>
+			</div>
+			<a (click)="goToCourese()" class="button button--black homeSection__button" routerLink="/courses/all"><span>All Courses</span></a>
+		</div>
+		<!-- content courses -->
+		<!-- content courses -->
+		<!-- content courses -->
+		<ul class="clientsList clearfix">
+
+			<li *ngFor = "let parentcourse of parentcourse" routerLinkActive="active" class="linkTo client all diesel industries big" data-type="industries">
+				<img class="client__image" src="{{parentcourse.img}}" />
+				<div class="client__overlay"></div>
+				<a class="linkFrom" href="#">
+					<div class="client__box text-center">
+						<strong class="client__name text-uppercase">{{parentcourse.title}}</strong>
+						<div class="client__sector">
+							<p>{{parentcourse.description}}</p>
+						</div>
+					</div>
+				</a>
+			</li>
+
+			<li *ngFor = "let chilecourse of chilecourse" routerLinkActive="active" class="linkTo client all cisalfa industries small" data-type="industries">
+				<img class="client__image" src="{{chilecourse.img}}" />
+				<div class="client__overlay"></div>
+				<a class="linkFrom" href="#">
+					<div class="client__box text-center">
+						<strong class="client__name text-uppercase">{{chilecourse.title}}</strong>
+						<div class="client__sector">
+							<p>{{chilecourse.description}}</p>
+						</div>
+					</div>
+				</a>
+			</li>
+
+			<!-- <li class="linkTo client all cisalfa industries small" data-type="industries">
+				<img class="client__image" src="assets/img/courses-02-copy.jpg" />
+				<div class="client__overlay"></div>
+				<a class="linkFrom" href="#">
+					<div class="client__box text-center">
+						<strong class="client__name text-uppercase">Youth Lessons</strong>
+						<div class="client__sector">
+							<p>ages 18-22 years</p>
+						</div>
+					</div>
+				</a>
+			</li> -->
+
+		</ul>
+		<!-- content courses -->
+		<!-- content courses -->
+		<!-- content courses -->
+</div>
+</div>
